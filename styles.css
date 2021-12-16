@@ -1,0 +1,90 @@
+/* Glossary */
+/* tn(l) = table-nested(level) => tn(1) = "first nested table"
+    tdU= text-decoration:underline
+    tdN = text-decoration:none
+    fwB = font-weight:Bold
+    ffB =   font-family Body        Umbrella for nav + links
+    ffH =   font-family Headers     umbrella for Cta Btn
+
+     */
+
+     @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Permanent+Marker&display=swap');
+
+*{padding: 0%;
+margin: 0%;}
+
+
+.tableBody{
+    height:100%;
+    width:100%;
+    /* min-width: 100%; https://caniuse.com/?search=min-width unsure. use vanilla method for now but ask @Emarsys */
+}
+
+.tableMain{
+    width:100%;
+    vertical-align:top;
+}
+
+#temp{
+    background-color: #f8f8f8;
+}
+
+
+
+#pb0l5{
+    padding: 0 5px;    
+}
+
+.tn1{
+        align-self: center;
+        text-align: center  ;
+        background-color: indigo;
+}
+
+
+
+.vat{
+    vertical-align: top;
+}
+.vam{
+    vertical-align: middle;
+}
+
+.tdU{
+    text-decoration: underline;
+}
+.tdN{
+    text-decoration: none;
+}
+
+.fwB{
+    font-weight: bold;
+}
+
+.ffH{
+    font-family: 'Permanent Marker';
+}
+
+.ffB{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.lh{
+    line-height: 1.2;
+}
+
+.taC{
+    text-align: center;
+}
+
+.taL{
+    text-align: left;
+}
+
+.bsM{
+border-spacing: 6px;
+}
+
+.bsS{
+border-spacing: 3px;
+}
